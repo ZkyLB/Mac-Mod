@@ -5,31 +5,40 @@
 	"health": 725,
 	"size": 4,
 	"reload": 40,
-	"range": 7850,
+	"range": 2350,
 	"ammoUseEffect": "shockwave",
 	"inaccuracy": 2,
 	"rotatespeed": 1,
 	"ammo": {
 		"strike-a1": {
-			"speed": 15.0,
-			"damage": 850,
+			"speed": 19.0,
+			"damage": 1250,
+			"BulletWidth": 16,
+			"BulletHeight": 25,
 			"shootEffect": "blockExplosion",
 			"smokeEffect": "blockExplosionSmoke",
-			"ammoMultiplier": 2
+			"splashDamage": 320,
+			"ammoMultiplier": 2,
 		}
 		"strike-a2": {
-			"speed": 4.5,
-			"damage": 1565,
+			"speed": 24.5,
+			"damage": 1875,
+			"BulletWidth": 6,
+			"BulletHeight": 30,
 			"shootEffect": "hitMeltdown",
 			"smokeEffect": "pulverizeMedium",
-			"ammoMultiplier": 3
+			"splashDamage": 400,
+			"ammoMultiplier": 3,
 		}
 		"strike-a3": {
-			"speed": 0.5,
-			"damage": 2850,
+			"speed": 16.2,
+			"damage": 3490,
+			"BulletWidth": 18,
+			"BulletHeight": 20,
 			"shootEffect": "hitMeltdown",
 			"smokeEffect": "pulverizeMedium",
-			"ammoMultiplier": 4
+			"splashDamage": 1000,
+			"ammoMultiplier": 4,
 		}
 	},
 	"requirements": [
