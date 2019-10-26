@@ -1,38 +1,37 @@
 {
 	"type": "groundUnit",
 	"name": "Breaker",
-	"description": "A heavy beast. Can pentrate through strong walls easily, but has slow reload speed.",
-	"speed": 2.0,
+	"description": "A heavy beast. Can pentrate through strong walls easily.",
+	"speed": 0.3,
 	"flying": false,
 	"health": 75000,
-	"engineOffset": 100,
+	"engineOffset": 120,
 	"engineSize":45.0,
 	"engineColor": "feb380",
-	"range": 1565,
+	"range": 2530,
 	"weapon": {
 		"name": "breakout",
-		"length": 45.5,
+		"length": 110.0,
 		"width":110.0,
-		"reload": 50,
+		"reload": 35,
 		"alternate": true,
 		"bullet":{
             "type":"MissileBulletType",
-            "speed": 10.5,
-			"reload": 0.1
-			"recoil": 5
-            "damage": 7450,
-            "bulletWidth": 10,
-            "bulletHeight": 24,
+            "speed": 12.5,
+			"recoil": 2
+            "damage": 15350,
+            "bulletWidth": 100,
+            "bulletHeight": 125,
             "shootEffect": "nuclearShockwave",
             "smokeEffect": "shootBigSmoke2",
             "hitEffect": "hitBulletSmall",
-            "lifetime": 100f,
+            "lifetime": 175f,
             "inaccuracy": 8f,
             "frontColor": "71B6DD",
             "backColor": "71B6DD"
             "trailColor": "1E3B45",
-            "splashDamage": 1250,
-            "splashDamageRadius": 2350
+            "splashDamage": 4350,
+            "splashDamageRadius": 450
             "bulletShrink":1
         },
 	}
