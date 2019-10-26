@@ -1,66 +1,70 @@
 {
-	"type": "DoubleTurret",
-	"name": "Bolt",
-	"description": "A turret nightmare. A literal killer with a group.",
-	"health": 725,
-	"size": 3,
-	"reload": 3,
-	"range": 425,
-	"ammoUseEffect": "shootBig",
-	"inaccuracy": 5,
-	"rotatespeed": 25,
+	"type": "ArtilleryTurret",
+	"name": "Nukul",
+	"description": "A slow, but a deadly turret.",
+	"health": 250,
+	"size": 4,
+	"reload": 45,
+	"range": 752,
+	"ammoUseEffect": "shockwave",
+	"inaccuracy": 2,
+	"rotatespeed": 1,
 	"ammo": {
-		"copper": {
-			"speed": 14.5,
-			"damage": 35,
-			"BulletWidth": 35,
-			"BulletHeight": 64,
-			"shootEffect": "shellEjectMedium",
+		"lead": {
+			"speed": 19.0,
+			"damage": 250,
+			"BulletWidth": 16,
+			"BulletHeight": 25,
+			"shootEffect": "blockExplosion",
 			"smokeEffect": "blockExplosionSmoke",
-			"ammoMultiplier": 2
+			"splashDamage": 320,
+			"ammoMultiplier": 2,
 		}
-		"thorium": {
-			"speed": 14.5,
-			"damage": 70,
-			"BulletWidth": 35,
-			"BulletHeight": 64,
-			"shootEffect": "shellEjectMedium",
+		"silicon": {
+			"speed": 19.0,
+			"damage": 450,
+			"BulletWidth": 16,
+			"BulletHeight": 25,
+			"shootEffect": "blockExplosion",
 			"smokeEffect": "blockExplosionSmoke",
-			"ammoMultiplier": 3
+			"splashDamage": 320,
+			"ammoMultiplier": 2,
 		}
 		"strike-a1": {
-			"speed": 14.5,
-			"damage": 100,
-			"BulletWidth": 35,
-			"BulletHeight": 64,
-			"shootEffect": "shellEjectMedium",
+			"speed": 19.0,
+			"damage": 1075,
+			"BulletWidth": 16,
+			"BulletHeight": 25,
+			"shootEffect": "blockExplosion",
 			"smokeEffect": "blockExplosionSmoke",
-			"ammoMultiplier": 8
+			"splashDamage": 320,
+			"ammoMultiplier": 2,
 		}
 		"strike-a2": {
-			"speed": 24.7,
-			"damage": 130,
-			"shootEffect": "shellEjectBig",
-			"smokeEffect": "blockExplosionSmoke",
-			"BulletWidth": 35,
-			"BulletHeight": 75,
-			"ammoMultiplier": 6
+			"speed": 24.5,
+			"damage": 1675,
+			"BulletWidth": 6,
+			"BulletHeight": 30,
+			"shootEffect": "hitMeltdown",
+			"smokeEffect": "pulverizeMedium",
+			"splashDamage": 400,
+			"ammoMultiplier": 3,
 		}
 		"strike-a3": {
-			"speed": 12.0,
-			"damage": 180,
-			"shootEffect": "shellEjectSmall",
-			"smokeEffect": "blockExplosionSmoke",
-			"BulletWidth": 45,
-			"BulletHeight": 57,
-			"ammoMultiplier": 10
+			"speed": 16.2,
+			"damage": 3150,
+			"BulletWidth": 18,
+			"BulletHeight": 20,
+			"shootEffect": "hitMeltdown",
+			"smokeEffect": "pulverizeMedium",
+			"splashDamage": 1000,
+			"ammoMultiplier": 4,
 		}
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 325 },
-		{ "item": "lead", "amount": 250 },
-		{ "item": "silicon", "amount": 170 }
+		{ "item": "silicon", "amount": 745 },
+		{ "item": "lead", "amount": 325 }
 	],
 	"category": "turret",
-	"research": "lancer"
+	"research": "bolt-turret"
 }
