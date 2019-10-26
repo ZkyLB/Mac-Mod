@@ -1,29 +1,47 @@
 {
-	"type": "BurstTurret",
+	"type": "DoubleTurret",
 	"name": "Bolt",
-	"description": "A double turret nightmare. A literal killer with a group.",
+	"description": "A turret nightmare. A literal killer with a group.",
 	"health": 725,
 	"size": 3,
 	"reload": 3,
 	"range": 425,
 	"ammoUseEffect": "shootBig",
-	"inaccuracy": 10,
-	"rotatespeed": 20,
+	"inaccuracy": 5,
+	"rotatespeed": 25,
 	"ammo": {
+		"copper": {
+			"speed": 14.5,
+			"damage": 35,
+			"BulletWidth": 35,
+			"BulletHeight": 64,
+			"shootEffect": "shellEjectMedium",
+			"smokeEffect": "blockExplosionSmoke",
+			"ammoMultiplier": 2
+		}
+		"thorium": {
+			"speed": 14.5,
+			"damage": 70,
+			"BulletWidth": 35,
+			"BulletHeight": 64,
+			"shootEffect": "shellEjectMedium",
+			"smokeEffect": "blockExplosionSmoke",
+			"ammoMultiplier": 3
+		}
 		"strike-a1": {
 			"speed": 14.5,
 			"damage": 100,
 			"BulletWidth": 35,
 			"BulletHeight": 64,
 			"shootEffect": "shellEjectMedium",
-			"smokeEffect": "mineHuge",
+			"smokeEffect": "blockExplosionSmoke",
 			"ammoMultiplier": 8
 		}
 		"strike-a2": {
 			"speed": 24.7,
 			"damage": 130,
 			"shootEffect": "shellEjectBig",
-			"smokeEffect": "mineHuge",
+			"smokeEffect": "blockExplosionSmoke",
 			"BulletWidth": 35,
 			"BulletHeight": 75,
 			"ammoMultiplier": 6
@@ -32,15 +50,16 @@
 			"speed": 12.0,
 			"damage": 180,
 			"shootEffect": "shellEjectSmall",
-			"smokeEffect": "mineHuge",
+			"smokeEffect": "blockExplosionSmoke",
 			"BulletWidth": 45,
 			"BulletHeight": 57,
 			"ammoMultiplier": 10
 		}
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 250 },
-		{ "item": "lead", "amount": 100 }
+		{ "item": "copper", "amount": 325 },
+		{ "item": "lead", "amount": 250 },
+		{ "item": "silicon", "amount": 170 }
 	],
 	"category": "turret",
 	"research": "lancer"
