@@ -1,0 +1,41 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "Nukul",
+	"description": "A slow, but a powerful turret.",
+	"health": 725,
+	"size": 4,
+	"reload": 40,
+	"range": 7850,
+	"ammoUseEffect": "shockwave",
+	"inaccuracy": 2,
+	"rotatespeed": 1,
+	"ammo": {
+		"strike-a1": {
+			"speed": 15.0,
+			"damage": 850,
+			"shootEffect": "blockExplosion",
+			"smokeEffect": "blockExplosionSmoke",
+			"ammoMultiplier": 2
+		}
+		"strike-a2": {
+			"speed": 4.5,
+			"damage": 1565,
+			"shootEffect": "hitMeltdown",
+			"smokeEffect": "pulverizeMedium",
+			"ammoMultiplier": 3
+		}
+		"strike-a3": {
+			"speed": 0.5,
+			"damage": 2850,
+			"shootEffect": "hitMeltdown",
+			"smokeEffect": "pulverizeMedium",
+			"ammoMultiplier": 4
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 540 },
+		{ "item": "lead", "amount": 265 }
+	],
+	"category": "turret",
+	"research": "bolt-turret"
+}
