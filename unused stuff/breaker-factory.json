@@ -1,0 +1,27 @@
+{
+	"name": "Breaker Factory",
+	"description": "Makes Breaker units.",
+	"type": "unitFactory",
+	"unitType": "breaker",
+	"size": 5,
+	"itemCapacity": 600
+	"produceTime": 150,
+	"consumes": {
+		"power": 0.5,
+		"items": [
+			{"item": "copper", "amount": 400},
+			{"item": "lead", "amount": 250}
+			{"item": "silicon", "amount": 370}
+			{"item": "titanium", "amount": 375}
+			{"item": "plastanium", "amount": 270}
+		]
+	},
+	"category": "units",
+	"research": "fortress-factory",
+	"requirements": [
+		{ "item": "copper", "amount": 500 },
+		{ "item": "lead", "amount": 650 },
+		{ "item": "silicon", "amount": 435 },
+		{ "item": "titanium", "amount": 850 }
+	]
+}

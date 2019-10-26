@@ -1,0 +1,25 @@
+{
+	"type": "GenericCrafter",
+	"name": "Strike A1 Manufacturer",
+	"description": "Manufactures Strike A1.",
+	"outputItem": {"item": "strike-a1", "amount": 5},
+	"itemCapacity": 35,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"craftTime": 2.5,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.6,
+		"items": { "items": [ { "amount": 10, "item": "silicon" }, { "amount": 5, "item": "lead" } ] }
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 100 },
+		{ "item": "copper", "amount": 275 },
+		{ "item": "silicon", "amount": 60 }
+	],
+	"category": "crafting",
+	"research": "bolt-turret",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.3
+}

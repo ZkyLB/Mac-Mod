@@ -1,0 +1,41 @@
+{
+	"type": "BurstTurret",
+	"name": "Bolt",
+	"description": "A double turret nightmare. A literal killer with a group.",
+	"health": 725,
+	"size": 3,
+	"reload": 3,
+	"range": 425,
+	"ammoUseEffect": "formsmoke",
+	"inaccuracy": 10,
+	"rotatespeed": 20,
+	"ammo": {
+		"strike-a1": {
+			"speed": 14.5,
+			"damage": 100,
+			"shootEffect": "shellEjectMedium",
+			"smokeEffect": "pulverizeMedium",
+			"ammoMultiplier": 8
+		}
+		"strike-a2": {
+			"speed": 24.7,
+			"damage": 130,
+			"shootEffect": "shellEjectBig",
+			"smokeEffect": "pulverizeMedium",
+			"ammoMultiplier": 6
+		}
+		"strike-a3": {
+			"speed": 12.0,
+			"damage": 180,
+			"shootEffect": "shellEjectSmall",
+			"smokeEffect": "pulverizeMedium",
+			"ammoMultiplier": 10
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 250 },
+		{ "item": "lead", "amount": 100 }
+	],
+	"category": "turret",
+	"research": "lancer"
+}

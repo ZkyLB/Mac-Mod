@@ -1,0 +1,25 @@
+{
+	"type": "GenericCrafter",
+	"name": "Strike A2 Manufacturer",
+	"description": "Manufactures Strike A2.",
+	"outputItem": {"item": "strike-a2", "amount": 7},
+	"itemCapacity": 35,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"craftTime": 2.5,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.6,
+		"items": { "items": [ { "amount": 25, "item": "silicon" }, { "amount": 10, "item": "lead" } ] }
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 135 },
+		{ "item": "copper", "amount": 320 },
+		{ "item": "silicon", "amount": 90 }
+	],
+	"category": "crafting",
+	"research": "strike-a1-manufacturer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

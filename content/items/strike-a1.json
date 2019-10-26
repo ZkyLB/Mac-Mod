@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Strike A1",
+	"description": "A basic ammo resource for every insane turrets.",
+	"hardness": 4,
+	"cost": 5.0
+	"color": "4A5559"
+}

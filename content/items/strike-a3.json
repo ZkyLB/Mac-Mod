@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Strike A3",
+	"description": "Has less penetration and speed than A2 and A1, but has explosives inside.",
+	"hardness": 5,
+	"cost": 7.5
+	"color": "4A5559"
+}
