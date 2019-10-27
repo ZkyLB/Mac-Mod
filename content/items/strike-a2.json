@@ -2,7 +2,7 @@
 	"type": "material",
 	"name": "Strike A2",
 	"description": "Has better penetration and speed.",
-	"hardness": 4,
+	"hardness": 3,
 	"cost": 6.0
 	"color": "4A5559"
 }
