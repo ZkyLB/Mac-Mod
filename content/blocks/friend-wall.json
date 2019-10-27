@@ -1,0 +1,12 @@
+{
+	"name": "Friend Wall",
+	"description": "Yoloskeet, Ilya246, Egg,",
+	"type": "Wall",
+	"health": 4500,
+	"size": 1,
+	"requirements": [
+		{ "item": "copper", "amount": 70 }
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

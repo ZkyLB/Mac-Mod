@@ -1,0 +1,12 @@
+{
+	"name": "Colab Wall",
+	"description": "TrinityXyz",
+	"type": "Wall",
+	"health": 1000,
+	"size": 1,
+	"requirements": [
+		{ "item": "lead", "amount": 70 }
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}
