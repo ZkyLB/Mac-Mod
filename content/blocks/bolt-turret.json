@@ -1,11 +1,11 @@
 {
 	"type": "DoubleTurret",
-	"name": "bolt",
+	"name": "Bolt",
 	"description": "A rapid firing double turret. Will literally kill you in seconds.",
 	"health": 250,
 	"size": 3,
 	"reload": 2
-	"range": 752,
+	"range": 540,
 	"ammoUseEffect": "shockwave",
 	"inaccuracy": 2,
 	"rotatespeed": 1,
