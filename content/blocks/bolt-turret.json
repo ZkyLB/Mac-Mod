@@ -1,10 +1,10 @@
 {
-	"type": "ArtilleryTurret",
-	"name": "Nukul",
-	"description": "A slow, but a deadly turret.",
+	"type": "DoubleTurret",
+	"name": "bolt",
+	"description": "A rapid firing double turret. Will literally kill you in seconds.",
 	"health": 250,
-	"size": 4,
-	"reload": 45,
+	"size": 3,
+	"reload": 2
 	"range": 752,
 	"ammoUseEffect": "shockwave",
 	"inaccuracy": 2,
@@ -12,7 +12,7 @@
 	"ammo": {
 		"lead": {
 			"speed": 19.0,
-			"damage": 250,
+			"damage": 40,
 			"BulletWidth": 16,
 			"BulletHeight": 25,
 			"shootEffect": "blockExplosion",
@@ -22,7 +22,7 @@
 		}
 		"silicon": {
 			"speed": 19.0,
-			"damage": 450,
+			"damage": 85,
 			"BulletWidth": 16,
 			"BulletHeight": 25,
 			"shootEffect": "blockExplosion",
@@ -32,22 +32,24 @@
 		}
 		"strike-a1": {
 			"speed": 19.0,
-			"damage": 1075,
+			"damage": 650,
 			"BulletWidth": 16,
 			"BulletHeight": 25,
 			"shootEffect": "blockExplosion",
 			"smokeEffect": "blockExplosionSmoke",
 			"splashDamage": 320,
+			"splashDamageRadius": 450,
 			"ammoMultiplier": 2,
 		}
 		"strike-a2": {
 			"speed": 24.5,
-			"damage": 1675,
+			"damage": 1350,
 			"BulletWidth": 6,
 			"BulletHeight": 30,
 			"shootEffect": "hitMeltdown",
 			"smokeEffect": "pulverizeMedium",
 			"splashDamage": 400,
+			"splashDamageRadius": 450,
 			"ammoMultiplier": 3,
 		}
 		"strike-a3": {
@@ -58,13 +60,14 @@
 			"shootEffect": "hitMeltdown",
 			"smokeEffect": "pulverizeMedium",
 			"splashDamage": 1000,
+			"splashDamageRadius": 450,
 			"ammoMultiplier": 4,
 		}
 	},
 	"requirements": [
-		{ "item": "silicon", "amount": 745 },
-		{ "item": "lead", "amount": 325 }
+		{ "item": "silicon", "amount": 850 },
+		{ "item": "copper", "amount": 245 }
 	],
 	"category": "turret",
-	"research": "bolt-turret"
+	"research": "nukul-turret"
 }
