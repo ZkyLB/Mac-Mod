@@ -17,7 +17,6 @@
 			"BulletHeight": 25,
 			"shootEffect": "blockExplosion",
 			"smokeEffect": "blockExplosionSmoke",
-			"splashDamage": 320,
 			"ammoMultiplier": 2,
 		}
 		"silicon": {
@@ -27,7 +26,6 @@
 			"BulletHeight": 25,
 			"shootEffect": "blockExplosion",
 			"smokeEffect": "blockExplosionSmoke",
-			"splashDamage": 320,
 			"ammoMultiplier": 2,
 		}
 		"strike-a1": {
@@ -38,7 +36,7 @@
 			"shootEffect": "blockExplosion",
 			"smokeEffect": "blockExplosionSmoke",
 			"splashDamage": 320,
-			"splashDamageRadius": 450,
+			"splashDamageRadius": 125,
 			"ammoMultiplier": 2,
 		}
 		"strike-a2": {
@@ -49,7 +47,7 @@
 			"shootEffect": "hitMeltdown",
 			"smokeEffect": "pulverizeMedium",
 			"splashDamage": 400,
-			"splashDamageRadius": 450,
+			"splashDamageRadius": 65,
 			"ammoMultiplier": 3,
 		}
 		"strike-a3": {
@@ -60,7 +58,7 @@
 			"shootEffect": "hitMeltdown",
 			"smokeEffect": "pulverizeMedium",
 			"splashDamage": 1000,
-			"splashDamageRadius": 450,
+			"splashDamageRadius": 345,
 			"ammoMultiplier": 4,
 		}
 	},
