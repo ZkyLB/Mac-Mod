@@ -18,6 +18,7 @@
 			"shootEffect": "blockExplosion",
 			"smokeEffect": "blockExplosionSmoke",
 			"splashDamage": 320,
+			"splashDamageRadius": 145,
 			"ammoMultiplier": 2,
 		}
 		"strike-a2": {
@@ -28,6 +29,7 @@
 			"shootEffect": "hitMeltdown",
 			"smokeEffect": "pulverizeMedium",
 			"splashDamage": 400,
+			"splashDamageRadius": 65,
 			"ammoMultiplier": 3,
 		}
 		"strike-a3": {
@@ -38,6 +40,7 @@
 			"shootEffect": "hitMeltdown",
 			"smokeEffect": "pulverizeMedium",
 			"splashDamage": 1000,
+			"splashDamageRadius": 285,
 			"ammoMultiplier": 4,
 		}
 	},
