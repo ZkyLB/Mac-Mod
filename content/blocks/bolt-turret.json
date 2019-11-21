@@ -17,6 +17,7 @@
 			"BulletHeight": 25,
 			"shootEffect": "blockExplosion",
 			"smokeEffect": "blockExplosionSmoke",
+			"splashDamage": 320,
 			"ammoMultiplier": 2,
 		}
 		"silicon": {
@@ -26,6 +27,7 @@
 			"BulletHeight": 25,
 			"shootEffect": "blockExplosion",
 			"smokeEffect": "blockExplosionSmoke",
+			"splashDamage": 320,
 			"ammoMultiplier": 2,
 		}
 		"strike-a1": {
