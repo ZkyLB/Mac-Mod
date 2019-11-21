@@ -3,7 +3,7 @@
 	"name": "Breaker",
 	"description": "A heavy beast. Can pentrate through strong walls easily, but has slow reload.",
 	"speed": 0.3,
-	"hitsize": 195,
+	"hitsize": 150,
 	"flying": false,
 	"health": 75000,
 	"engineOffset": 120,
@@ -26,13 +26,13 @@
             "shootEffect": "shockwave",
             "smokeEffect": "shootBigSmoke2",
             "hitEffect": "shockwave",
-            "lifetime": 175f,
-            "inaccuracy": 8f,
+            "lifetime": 175,
+            "inaccuracy": 8,
             "frontColor": "71B6DD",
-            "backColor": "71B6DD"
+            "backColor": "71B6DD",
             "trailColor": "1E3B45",
             "splashDamage": 75650,
-            "splashDamageRadius": 650
+            "splashDamageRadius": 650,
             "bulletShrink":1
         },
 	}
